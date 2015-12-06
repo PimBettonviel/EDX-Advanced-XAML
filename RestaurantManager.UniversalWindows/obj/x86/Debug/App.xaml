@@ -6,9 +6,9 @@
     xmlns:models="using:RestaurantManager.Models"
     RequestedTheme="Dark">
     <Application.Resources>
-        <Style TargetType="Button">
+        <!--<Style TargetType="Button">
             <Setter Property="FontSize" Value="32" />
-        </Style>
+        </Style>-->
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="32" />
         </Style>
