@@ -4,10 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:RestaurantManager.UniversalWindows"
     xmlns:models="using:RestaurantManager.Models"
+    xmlns:extensions="using:RestaurantManager.Extensions"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.Resources>
+        <extensions:BoolToColorConverter TrueColor="Red" FalseColor="Transparent"
+            x:Key="BoolToColorConverter" />
         <DataTemplate
             x:Key="InnerListTemplate">
             <Border
@@ -19,6 +22,7 @@
                     FontSize="21.333" />
             </Border>
         </DataTemplate>
+        
         <DataTemplate
             x:Key="GridViewItemTemplate">
             <Grid
@@ -65,14 +69,16 @@
                         Text="{Binding SpecialRequests}"
                         Margin="10,0,0,0" />
                 </StackPanel>
-                <Button
-                    x:Name="button"
-                    Content="Delete"
-                    HorizontalAlignment="Center"
+                <Border
                     VerticalAlignment="Bottom"
-                    d:LayoutOverrides="VerticalAlignment"
-                    Grid.Row="1"
-                    FontSize="16" />
+                    Background="{Binding Expedite, Converter={StaticResource BoolToColorConverter}}">
+                    <Button
+                        x:Name="button"
+                        Content="Delete"
+                        HorizontalAlignment="Center"
+                        FontSize="20" />
+                </Border>
+
             </Grid>
         </DataTemplate>
     </Page.Resources>

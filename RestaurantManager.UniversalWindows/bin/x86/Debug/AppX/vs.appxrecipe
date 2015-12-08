@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>da504085-789a-4d8f-a5b2-d97d22b73dfe</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>0C9DD2CA203F75830D1426F8EE54137679D21A26C5A9275077A41CEF26CC5E01</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C920633B9D0A7D231468D486C8A526DD748F9293AF24938F35E5C814C5CEAB42</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>da504085-789a-4d8f-a5b2-d97d22b73dfe_1.0.0.0_x86__nvkfqn0chb4rw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>da504085-789a-4d8f-a5b2-d97d22b73dfe_nvkfqn0chb4rw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>da504085-789a-4d8f-a5b2-d97d22b73dfe</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-06T00:48:12.888</Modified>
+      <Modified>2015-12-08T19:21:45.194</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +49,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\entrypoint\RestaurantManager.UniversalWindows.exe">
       <PackagePath>entrypoint\RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2015-12-06T00:48:10.665</Modified>
+      <Modified>2015-12-08T19:21:42.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -63,13 +63,29 @@
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2015-08-31T21:39:34.960</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-12-10T16:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-12-10T16:08:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2015-12-02T23:38:35.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-06T00:48:12.214</Modified>
+      <Modified>2015-12-08T19:21:44.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Extensions.dll">
+      <PackagePath>RestaurantManager.Extensions.dll</PackagePath>
+      <Modified>2015-12-08T19:13:24.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Extensions\Properties\RestaurantManager.Extensions.rd.xml">
+      <PackagePath>RestaurantManager.Extensions\Properties\RestaurantManager.Extensions.rd.xml</PackagePath>
+      <Modified>2015-12-08T17:26:33.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Models.dll">
       <PackagePath>RestaurantManager.Models.dll</PackagePath>
@@ -81,11 +97,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.exe">
       <PackagePath>RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2015-12-06T00:48:12.884</Modified>
+      <Modified>2015-12-08T19:21:45.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.xr.xml">
       <PackagePath>RestaurantManager.UniversalWindows.xr.xml</PackagePath>
-      <Modified>2015-12-06T00:29:37.574</Modified>
+      <Modified>2015-12-08T19:21:42.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

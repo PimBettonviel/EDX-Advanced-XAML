@@ -46,11 +46,23 @@
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Extensions.dll">
+      <PackagePath>RestaurantManager.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Extensions\Properties\RestaurantManager.Extensions.rd.xml">
+      <PackagePath>RestaurantManager.Extensions\Properties\RestaurantManager.Extensions.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Models.dll">
       <PackagePath>RestaurantManager.Models.dll</PackagePath>
