@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.UniversalWindows", "RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj", "{15039095-DCCC-4AED-8757-C2DB14B96088}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.Models", "RestaurantManager.Models\RestaurantManager.Models.csproj", "{7EA2B405-E454-4F0C-A8C3-D6BF3F814F5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.Extensions", "RestaurantManager.Extensions\RestaurantManager.Extensions.csproj", "{41808047-495C-421A-8129-E3EE0AEECA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.ViewModels", "RestaurantManager.ViewModels\RestaurantManager.ViewModels.csproj", "{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,22 @@ Global
 		{41808047-495C-421A-8129-E3EE0AEECA81}.Release|x64.Build.0 = Release|x64
 		{41808047-495C-421A-8129-E3EE0AEECA81}.Release|x86.ActiveCfg = Release|x86
 		{41808047-495C-421A-8129-E3EE0AEECA81}.Release|x86.Build.0 = Release|x86
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Debug|ARM.Build.0 = Debug|ARM
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Debug|x64.ActiveCfg = Debug|x64
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Debug|x64.Build.0 = Debug|x64
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Debug|x86.ActiveCfg = Debug|x86
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Debug|x86.Build.0 = Debug|x86
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Release|ARM.ActiveCfg = Release|ARM
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Release|ARM.Build.0 = Release|ARM
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Release|x64.ActiveCfg = Release|x64
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Release|x64.Build.0 = Release|x64
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Release|x86.ActiveCfg = Release|x86
+		{CF525B65-37B3-4E09-8BA4-CE6B7634D3C4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -181,7 +181,10 @@
       <RootMethod Name="GetAccessibilityView" />
       <RootMethod Name="SetAccessibilityView" />
     </RootType>
-    <RootType FullName="RestaurantManager.Extensions.RightTapDialog" />
+    <RootType FullName="RestaurantManager.Extensions.RightTapDialog">
+      <RootProperty Name="Title" />
+      <RootProperty Name="Message" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>

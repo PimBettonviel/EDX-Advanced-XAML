@@ -16,8 +16,11 @@ namespace RestaurantManager.Models
 
         public async Task InitializeContextAsync()
         {
-            //DO NOT REMOVE: Simulates network congestion
-            await Task.Delay(TimeSpan.FromSeconds(2.5d));
+            if (!Windows.ApplicationModel.DesignMode.DesignModeEnabled)
+            {
+                //DO NOT REMOVE: Simulates network congestion
+                await Task.Delay(TimeSpan.FromSeconds(2.5d));
+            }
 
             this.Tables = new List<Table>
             {

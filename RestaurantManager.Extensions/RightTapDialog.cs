@@ -17,6 +17,9 @@ namespace RestaurantManager.Extensions
             get; private set;
         }
 
+        public string Title { get; set; }
+        public string Message { get; set; }
+
         public void Attach(DependencyObject associatedObject)
         {
             if ((AssociatedObject = associatedObject as Page) != null)
@@ -27,7 +30,7 @@ namespace RestaurantManager.Extensions
 
         private async void RightTapDialog_RightTapped(object sender, Windows.UI.Xaml.Input.RightTappedRoutedEventArgs e)
         {
-            await new MessageDialog("Thank you very much for trying out the RestaurantManager!", "Thanks").ShowAsync();
+            await new MessageDialog(Message ?? "", Title ?? "").ShowAsync();
         }
 
         public void Detach()

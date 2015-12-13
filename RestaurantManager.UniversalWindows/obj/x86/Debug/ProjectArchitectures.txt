@@ -1,3 +1,6 @@
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Extensions\RestaurantManager.Extensions.csproj;neutral
+C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Extensions\RestaurantManager.Extensions.csproj;neutral
+C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
+C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.ViewModels\RestaurantManager.ViewModels.csproj;neutral

@@ -147,7 +147,7 @@
     </Page.Resources>
 
     <i:Interaction.Behaviors>
-        <extensions:RightTapDialog />
+        <extensions:RightTapDialog Title="Thank you !!" Message="Thanks for taking the time to have a look at this demo." />
     </i:Interaction.Behaviors>
     
     <Grid
