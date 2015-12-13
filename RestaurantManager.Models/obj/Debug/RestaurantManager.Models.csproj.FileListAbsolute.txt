@@ -18,7 +18,6 @@ C:\Users\Sidne\Desktop\xaml-solutions\course-2\mod2hw_solution\RestaurantManager
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pdb
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pri
-C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.csprojResolveAssemblyReference.cache
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.dll
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.pdb
 C:\Users\Pim\Documents\GitHubVisualStudio\EDX-Advanced-XAML\RestaurantManager.Models\obj\Debug\priconfig.xml

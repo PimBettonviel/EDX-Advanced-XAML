@@ -144,12 +144,57 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Storyboard
+            x:Name="MovingButtonsStoryboard">
+            <DoubleAnimationUsingKeyFrames
+                Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"
+                Storyboard.TargetName="ExpediteButton">
+                <EasingDoubleKeyFrame
+                    KeyTime="0"
+                    Value="-1500">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <PowerEase
+                            EasingMode="EaseOut" />
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame
+                    KeyTime="0:0:2"
+                    Value="0">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <PowerEase
+                            EasingMode="EaseOut" />
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames
+                Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"
+                Storyboard.TargetName="OrderButton">
+                <EasingDoubleKeyFrame
+                    KeyTime="0"
+                    Value="1500">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <PowerEase
+                            EasingMode="EaseOut" />
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame
+                    KeyTime="0:0:2"
+                    Value="0">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <PowerEase
+                            EasingMode="EaseOut" />
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Page.Resources>
 
     <i:Interaction.Behaviors>
-        <extensions:RightTapDialog Title="Thank you !!" Message="Thanks for taking the time to have a look at this demo." />
+        <extensions:RightTapDialog
+            Title="Thank you !!"
+            Message="Thanks for taking the time to have a look at this demo." />
     </i:Interaction.Behaviors>
-    
+
     <Grid
         Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
@@ -183,20 +228,32 @@
             Grid.Column="0"
             Grid.ColumnSpan="2" />
         <Button
+            x:Name="ExpediteButton"
             Content="Go to Orders View"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Grid.Row="2"
             Grid.Column="0"
             Click="ExpeditePage_Click"
-            Style="{StaticResource RoundedCornerButtonStyle}" />
+            Style="{StaticResource RoundedCornerButtonStyle}"
+            RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform />
+            </Button.RenderTransform>
+        </Button>
         <Button
+            x:Name="OrderButton"
             Content="Submit Order"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Grid.Row="2"
             Grid.Column="1"
             Click="OrderPage_Click"
-            Style="{StaticResource RoundedCornerButtonStyle}"/>
+            Style="{StaticResource RoundedCornerButtonStyle}"
+            RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform />
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Page>

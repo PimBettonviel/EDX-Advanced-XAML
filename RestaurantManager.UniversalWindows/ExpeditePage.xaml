@@ -123,5 +123,10 @@
             Grid.Row="2"
             Command="{Binding DeleteAllOrdersCommand}"
             CommandParameter="{Binding SelectedItem, ElementName=gridView}" />
+        <ProgressRing
+            Grid.RowSpan="3"
+            IsActive="{Binding IsLoading}"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch" />
     </Grid>
 </Page>

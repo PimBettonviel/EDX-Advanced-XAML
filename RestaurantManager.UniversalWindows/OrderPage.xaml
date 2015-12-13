@@ -50,5 +50,10 @@
             Grid.Column="1"
             Grid.ColumnSpan="2"
             Command="{Binding SubmitOrderCommand}" />
+        <ProgressRing
+            Grid.ColumnSpan="3"
+            Grid.RowSpan="6" IsActive="{Binding IsLoading}"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch" />
     </Grid>
 </Page>
